@@ -13,6 +13,6 @@ initContainers:
 
 job:
   enabled: true
-  INPUT: "DBHOST,prod.rds.endpoint DBUSER,prod.rds.master_username DBPASS,prod.rds.master_password"
+  INPUT: "DOCDB_ENDPOINT,prod.roboshop.docdb.endpoint DOCDB_USERNAME,prod.roboshop.docdb.master_username DOCDB_PASSWORD,prod.roboshop.docdb.master_password"
   imageVersion: 2.0.4
 
