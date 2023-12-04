@@ -1,5 +1,5 @@
 appName: catalogue
-appVersion: 2.0.0
+appVersion: 2.0.1
 replicas: 2
 
 service:
