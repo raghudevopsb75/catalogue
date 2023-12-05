@@ -8,7 +8,7 @@ service:
   targetPort: 8080
 initContainers:
   enabled: true
-  imageVersion: 2.0.1
+  imageVersion: 2.0.2
   INPUT: "DOCUMENTDB,prod.roboshop.catalogue.DOCUMENTDB MONGO_URL,prod.roboshop.catalogue.MONGO_URL"
 
 job:
